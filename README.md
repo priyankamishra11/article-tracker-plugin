@@ -39,7 +39,7 @@ On first run, a browser window will open for Google OAuth — sign in to grant r
 ### Option A — Global (available in every Claude Code session)
 ```bash
 curl -o ~/.claude/commands/article-tracker.md \
-  https://raw.githubusercontent.com/YOUR_USERNAME/article-tracker-plugin/main/.claude/commands/article-tracker.md
+  https://raw.githubusercontent.com/priyankamishra11/article-tracker-plugin/main/.claude/commands/article-tracker.md
 ```
 
 Or manually:
@@ -51,7 +51,7 @@ cp .claude/commands/article-tracker.md ~/.claude/commands/article-tracker.md
 Clone the repo into your project. Claude Code automatically picks up skills from `.claude/commands/` in the current directory.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/article-tracker-plugin.git
+git clone https://github.com/priyankamishra11/article-tracker-plugin.git
 cd article-tracker-plugin
 claude  # skill is now available as /article-tracker
 ```
